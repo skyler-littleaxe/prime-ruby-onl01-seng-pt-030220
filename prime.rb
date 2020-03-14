@@ -13,7 +13,7 @@ def prime?(number)
     i = 2
    return false if number <= 1
     while i < number
-        return false if integer % i == 0 || integer < 1
+        return false if number % i == 0 || number < 1
         i += 1
     end
     true
