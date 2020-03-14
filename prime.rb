@@ -9,14 +9,4 @@
   #end
 #end
 
-def prime?(integer)
-    i = 2
-    if integer <= 1
-      false
-    while i < integer
-       if integer % i == 0 || integer < 1
-        false
-       else  i += 1
-        true
-    end
-  end
+
