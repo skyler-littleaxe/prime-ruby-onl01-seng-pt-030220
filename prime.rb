@@ -5,4 +5,3 @@ def prime?(number)
     elsif number == (1||2||3)
     true
     elsif 
-    number.each do 
