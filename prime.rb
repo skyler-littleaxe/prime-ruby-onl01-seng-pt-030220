@@ -4,7 +4,7 @@ def prime?(number)
     false
     elsif number == (1||2||3)
     true
-  else
-    true
+  elseif number % 
+    
   end
 end
