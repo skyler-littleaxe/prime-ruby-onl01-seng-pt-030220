@@ -11,9 +11,9 @@
 
 def prime?(integer)
     i = 2
-    if integer <= 1
+   return false if interger <= 1
       return false
-   else  while i < integer
+    while i < integer
         return false if integer % i == 0 || integer < 1
         i += 1
     end
