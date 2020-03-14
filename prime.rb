@@ -12,10 +12,10 @@
 def prime?(integer)
     i = 2
     if integer <= 1
-      false
+      return false
     while i < integer
        if integer % i == 0 || integer < 1
-         false
+         return false
         i += 1
     end
     true
