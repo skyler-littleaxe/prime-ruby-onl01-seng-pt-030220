@@ -10,11 +10,11 @@
 #end
 
 def prime?(number)
-    n = 2
+    i = 2
    return false if number <= 1
     while n < integer
-        return false if integer % n == 0 || integer < 1
-        n += 1
+        return false if integer % i == 0 || integer < 1
+        i += 1
     end
     true
 end
